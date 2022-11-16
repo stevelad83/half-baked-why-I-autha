@@ -1,3 +1,32 @@
+# Plan
+
+##
+
+HTML
+-LANDING page AUTH
+-sign up (form)
+-log in (form)
+
+HOME page
+-link to CREATE page
+-sign out button
+
+CREATE page
+-new post form
+
+## Events
+
+-LANDING page - form on submit
+-HOME page - window load
+-CREATE page - form on submit
+
+## Slices
+
+-sign up
+-sign in
+-redirects/sign out
+-create page
+
 # Why I Autha
 
 ## Demo
@@ -46,4 +75,3 @@ The following is required for your assignment to be graded:
 | Users can logout from the other page                                           | 2      |
 | Authenticated users are redirected to the other page from the home page        | 1      |
 | Unauthenticated users are redirected back to the home page from the other page | 1      |
-
