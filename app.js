@@ -10,9 +10,9 @@ signUpForm.addEventListener('submit', async (e) => {
     const email = data.get('email');
     const user = await signupUser(email, data.get('password'));
 
-    // if (user) {
-    //     location.replace('/other-page');
-    // }
+    if (user) {
+        location.replace('/other-page');
+    }
 });
 
 // Wire up sign in and sign up forms to supabase
