@@ -13,7 +13,7 @@ signUpForm.addEventListener('submit', async (e) => {
     const user = await signupUser(email, data.get('password'));
 
     if (user) {
-        location.replace('/other-page');
+        location.replace('../other-page');
     }
 });
 
@@ -24,7 +24,7 @@ signInForm.addEventListener('submit', async (e) => {
     const user = await signInUser(email, data.get('password'));
 
     if (user) {
-        location.replace('/other-page');
+        location.replace('../other-page');
     }
 });
 // Wire up sign in and sign up forms to supabase
